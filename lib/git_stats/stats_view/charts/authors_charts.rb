@@ -4,7 +4,7 @@ module GitStats
   module StatsView
     module Charts
       class AuthorsCharts
-        AUTHORS_ON_CHART_LIMIT = 5
+        AUTHORS_ON_CHART_LIMIT = 20
 
         def initialize(authors)
           @authors = authors
